@@ -73,7 +73,7 @@ const JobCard = (props) => {
               </Typography>
               <div>
                 <Typography variant="subtitle1">
-                  {props.company_name}
+                  Weekday
                 </Typography>
                 <Typography variant="subtitle2" color="textSecondary">
                   {props.location}
@@ -98,7 +98,7 @@ const JobCard = (props) => {
             </Button>
           </Typography>
           <Typography variant="body1" color="ButtonText" sx={{ mt: 1 }}>
-            Minimum Experience <br></br> {props.experience_required}
+            Minimum Experience <br></br> 2 Years
           </Typography>
           <Link
             href={props.apply_link}
